@@ -9,11 +9,14 @@ How to Run the Project
                           cd Kovai.co_Task
 2. Install Dependencies: npm install
    
- Running the API Server
+Running the API Server
+
 Run this command: node server.js
+
 The server will start on http://localhost:5000.
 
 Available API Endpoints:
+
 POST /create – Create a new folder (pass folderName in JSON body)
 
 GET /get – List all folders in the drivespace directory
@@ -22,5 +25,6 @@ PUT /rename – Rename a folder (pass oldName and newName in JSON body)
 
 DELETE /delete/:folderName – Delete a folder by name
 
- Running the Console Application
+Running the Console Application
+
 Run this command: node console.js
